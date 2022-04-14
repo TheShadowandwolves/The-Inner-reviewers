@@ -4,7 +4,7 @@
     font-family: "Ubuntu", sans-serif;
     box-sizing: border-box;
     text-decoration: none;
-
+    background: black;
 }
 .body{
     height: 100vh;
@@ -62,23 +62,25 @@
     font-size: 28px;
     font-weight: 600;
     margin: 10px 0;
-
+    background: #2c3a47;
 }
 .desc{
     font-size: 18px;
     color: #e66767;
+    background: #2c3a47;
 }
 .sm{
     display: flex;
     justify-content: center;
     margin: 20px 0;
+    background: #2c3a47;
 }
 .sm a{
     color: white;
     width: 56px;
     font-size: 22px;
     transition: .3s linear;
-
+    background: #2c3a47;
 }
 .sm a:hover{
     color: #e66767;
@@ -92,7 +94,7 @@ border: 2px solid #e66767;
 border-radius: 6px;
 margin-top: 16px;
 transition: .3s linear;
-
+background: #2c3a47;
 }
 .contact-btm:hover{
     background: #e66767;
@@ -102,6 +104,7 @@ transition: .3s linear;
 .card-footer{
     background: wheat;
     padding: 60px 10px;
+    
 }
 .numbers{
     display: flex;
@@ -115,11 +118,13 @@ transition: .3s linear;
     text-transform: uppercase;
     font-size: 13px;
     color: #e66767;
+    background: wheat;
 }
 .item span{
     display: block;
     color: black;
     font-size: 60px;
+    background: wheat;
 }
 .border{
     width: 1px;
