@@ -94,24 +94,25 @@ background: #2ecc71;
     transition: 0.25s;
     cursor: pointer;
 }
+
 .HOME{
     position: absolute;
-
-    left: 45%;
+    left: 48%;
     font-family: sans-serif;
     text-decoration: none;
     margin: 10px auto;
     text-align: center;
     display: inline-flex;
     padding: 4px 9px;
-    color: #e66767;
+    color: #2ecc71;
     border: 2px solid #e66767;
     border-radius: 8px;
     transition: .3s linear;
     cursor: pointer;
+    background-color: #e21c15;
 }
 .HOME a{
-    color: #e66767;
+    color: white;
     width: 60px;
     font-size: 14px;
     transition: .3s linear;
@@ -123,4 +124,5 @@ background: #2ecc71;
 }
 .HOME:hover{
     border-color: #2ecc71;
+    background-color: #2ecc71;
 }
