@@ -2,7 +2,10 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: #333;
+ 
+    background: url(Images/joshua-woroniecki-lzh3hPtJz9c-unsplash.jpg);
+    background-size: cover;
+
 }
 .box{
     width: 300px;
@@ -12,8 +15,12 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     background: rgb(23, 23, 197);
+
     text-align: center;
 
+}
+.title{
+color: #2ecc71;
 }
 .box h1{
     color: white;
