@@ -119,7 +119,7 @@ background: #2ecc71;
     width: 60px;
     font-size: 14px;
     transition: .3s linear;
-
+    text-decoration: none;
 }
 .HOME a:hover{
     background: #2ecc71;
