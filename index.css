@@ -126,3 +126,6 @@ html, body{
     text-align: left;
     margin: 0 1.5em;
 }
+.logolink {
+    text-decoration: none;
+}
