@@ -8,6 +8,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@500&display=swap");
 *, *::after, *::before {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
   }
   
   :root {
@@ -232,4 +234,32 @@
 }
 .logolink {
   text-decoration: none;
+}
+.search-box{
+  background-color: #d1d1d111;
+  padding:3px 20px;
+  margin-left: 85%;
+  border-radius: 20px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+  margin-right: 20px;
+}
+.search-box input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+.search-box input::placeholder{
+  color: #ffffff53;
+}
+.search-box button{
+  background-color: transparent;
+  color: #ffffffc9;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
