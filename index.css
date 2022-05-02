@@ -19,6 +19,7 @@ html, body{
     margin: 0;
     padding: 0;
     background: #2c2c2e;
+    
 }
 .nav ul{
     margin: 0;
@@ -80,6 +81,7 @@ html, body{
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 1.5em;
+    
 }
 
 .section-header{
@@ -157,3 +159,72 @@ html, body{
     outline: none;
     cursor: pointer;
   }
+  .btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    width: 200px;
+    height: 45px;
+    border: 2px solid #2196f3;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    
+}
+input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: #2196f3;
+    background: none;
+    outline: none;
+    font-size: 23px;
+    font-weight: 700;
+    transition: 0.7s ease-in-out;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.wdth{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: #2196f3;
+    top: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+    z-index: -1;
+}
+.wdth1{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: #2196f3;
+    top: 0;
+    right: 0;
+    transition: 0.5s ease-in-out;
+    z-index: -1;
+}
+
+.btn-container:hover .wdth{
+    width: 50%;
+    border-radius: 30px 0 0 30px;
+
+}
+
+.btn-container:hover input{
+    transform: scale(1.1);
+    color: white;
+}
+.btn-container:hover .wdth1{
+    width: 50%;
+    border-radius: 0 30px 30px 0;
+
+}
+.btn-container:hover{
+    border-radius: 30px;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
