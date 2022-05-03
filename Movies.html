@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Movies</title>
-        <meta name="description" content="This is the description">
+        <meta name="description" content="Here you find all movies, you can sign in to mark of what you watched or want to watch for you later">
         <link rel="stylesheet" href="index.css"/>
         <link rel="stylesheet" href="CSS/movieLibrary.css"/>
         <link rel="shortcut icon" href="Images/The inner reviewers logo wi text 2.png"/>
@@ -12,6 +12,7 @@
     <body>
         <header class="main-header">
             <nav class="nav main-nav">
+                <!--main nav on all platforms-->
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="Project.html">PROJECT</a></li>
@@ -31,19 +32,45 @@
         </header>
         <section id="main-slider">
             <div class="main-slider-box">
+                <!--image for movies, TODO: API for automatic pic set-->
                 <div class="main-slider-img">
-                    <img src="" alt="Poster"/>
+                    <img src="#" alt="Poster"/>
                 </div>
-                <div class="main-slider-text"></div>
+                <!--quality or anything else... no css-->
+                <div class="main-slider-text">
+                    <!--missing quality-->
+                    <span class="quality"></span>
+                    <!--bottom text-->
+                    <div class="bottom-text">
+                        <!--name-->
+                        <div class="movie-name">
+                        <!--need to change to automatic change for each movie-->
+                        <span>Year</span>
+                        <strong>Movie Name</strong>
+                    </div>
+                    <div class="category-rating">
+                        <!--category, needs automatic change-->
+                        <div class="category">
+                            <a href="#">category1</a>,<a href="#">category2</a><a href="#">category3</a>
+                        </div>
+                        <!--rating, same-->
+                        <div class="rating">
+                            
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
             </div>
         </section>
+        <!--button for reviewing more, need to be set in backend-->
         <div class="btn-container">
             <input type="button" value="VIEW MORE"/>
             <div class="wdth"></div>
             <div class="wdth1"></div>
         </div>
 
-
+        <!--main footer for all plattforms-->
         <footer class="main-footer">
 
         <div class="container main-footer-container">
