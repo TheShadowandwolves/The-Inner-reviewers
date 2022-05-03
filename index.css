@@ -242,6 +242,7 @@ input{
 }
 
 .title-item{
+    margin: 0;
     font-family: "Libre Bodoni", serif;
     font-weight: normal;
     color: rgb(28, 228, 45);
@@ -252,6 +253,14 @@ input{
     
     height: 200px;
     width: 200px;
-    margin: 15px;
+    margin: 10px;
     border-radius: 50%;
+}
+
+.items{
+    white-space: nowrap;
+    word-spacing: 10em;
+}
+.item{
+    display: inline-block;
 }
