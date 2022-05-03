@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
 @import url('https://fonts.googleapis.com/css?family=Metal+Mania');
 @import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Libre+Bodoni:wght@500&family=Oswald&family=Poppins:wght@300&family=Radio+Canada:wght@300&display=swap');
 @font-face {
     font-family: "Booter - Zero Zero";
     src: url("Fonts/Booter\ -\ Zero\ Zero.woff") format("woff"),
@@ -78,7 +79,7 @@ html, body{
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 70%;
     margin: 0 auto;
     padding: 0 1.5em;
     
@@ -227,4 +228,30 @@ input{
 .btn-container:hover{
     border-radius: 30px;
     box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+.p-main{
+    font-family: 'Oswold', sans-serif;
+    font-size: 18px;
+    color: #ffffffbe;
+    font-weight: normal;
+    word-spacing: 1px;
+    line-height: 1.5;
+}
+.section-all-about{
+    text-align: center;
+}
+
+.title-item{
+    font-family: "Libre Bodoni", serif;
+    font-weight: normal;
+    color: rgb(28, 228, 45);
+    font-size: 1.2em;
+}
+
+.title-img{
+    
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
 }
