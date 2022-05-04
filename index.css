@@ -164,7 +164,7 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 40%;
+    margin: auto;
     font-family: 'Josefin Sans', sans-serif;
     position: relative;
     width: 200px;
@@ -263,4 +263,8 @@ input{
 }
 .item{
     display: inline-block;
+}
+.video-box{
+    align-items: center;
+    text-align: center;
 }
