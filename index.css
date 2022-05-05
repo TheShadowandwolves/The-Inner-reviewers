@@ -268,3 +268,25 @@ input{
     align-items: center;
     text-align: center;
 }
+.terms-section{
+    margin: auto;
+    padding-bottom: 30px;
+    font-family: 'Oswold', sans-serif;
+    font-size: 18px;
+    color: #ffffffbe;
+    font-weight: normal;
+    word-spacing: normal;
+    line-height: normal;
+}
+
+.terms-subtitle{
+    font-family: 'Oswold', sans-serif;
+    font-size: 24px;
+    color: #ffffffbe;
+}
+
+.terms-section ul li{
+    font-family: 'Oswold', sans-serif;
+    font-size: 18px;
+    color: #ffffffbe;
+}
