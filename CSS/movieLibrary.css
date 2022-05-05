@@ -19,14 +19,16 @@ body{
 }
 
 #main-slider{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px 10px;
+    align-content: center;
     align-items: center;
     margin: 20px auto;
     max-width: 1170px;
     width: 100%;
 }
-
+/*need to change boxes to be in a "grid" so that is possible to resize the page and still have the pic the same size*/
 .main-slider-box{
     min-width: 300px;
     margin: 10px;
