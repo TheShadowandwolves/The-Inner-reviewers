@@ -19,8 +19,8 @@ body{
 }
 
 #main-slider{
-    display: grid;
-    grid-template-columns: auto auto auto;
+   /* display: grid;
+    grid-template-columns: auto auto auto;*/
     gap: 10px 10px;
     align-content: center;
     align-items: center;
@@ -34,9 +34,10 @@ body{
     margin: 10px;
     width: 300px;
     height: 450px;
+    min-height: auto;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
     border: 1px solid #0e0e0ec2;
-
+    display: inline-block;
     position: relative;
     overflow: hidden;
     user-select: none;
